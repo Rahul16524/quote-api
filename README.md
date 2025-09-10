@@ -22,7 +22,7 @@ mvn clean install
 
 # Run the project:
 ```
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 The app will start at: http://localhost:8080
 
@@ -72,3 +72,4 @@ Swagger UI at /swagger-ui.html
 ```
 for i in {1..6}; do curl http://localhost:8080/api/quote; echo ""; done
 ```
+
